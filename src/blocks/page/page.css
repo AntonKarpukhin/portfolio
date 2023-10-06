@@ -1,0 +1,10 @@
+.page {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 1445px;
+  margin: 0 auto;
+  font-family: "Gilroy", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
