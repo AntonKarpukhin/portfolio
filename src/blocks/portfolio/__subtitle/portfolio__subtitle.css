@@ -10,6 +10,10 @@
   margin-top: 50px;
 }
 
+.portfolio__subtitle_type_old {
+  margin-top: 100px;
+}
+
 @media screen and (max-width: 550px) {
   .portfolio__subtitle {
     font-size: 18px;

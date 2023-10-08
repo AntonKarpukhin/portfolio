@@ -4,8 +4,13 @@
   list-style-type: none;
   margin-top: 40px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   gap: 20px;
   transition: 1s all;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social {
+    flex-direction: column;
+  }
 }
