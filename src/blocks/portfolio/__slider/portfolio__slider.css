@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  column-gap: 30px;
   min-height: 413px;
   transition: 1s all;
 }
@@ -13,10 +13,6 @@
 
 @media screen and (max-width: 1023px) {
   .portfolio__slider {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-areas:
-    "back forward"
-    "img img";
+
   }
 }
