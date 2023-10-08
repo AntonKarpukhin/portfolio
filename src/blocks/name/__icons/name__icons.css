@@ -1,0 +1,8 @@
+.name__icons {
+  color: var(--var-body-lt);
+  transition: 1s all;
+}
+
+.name__icons:hover {
+  opacity: 0.5;
+}

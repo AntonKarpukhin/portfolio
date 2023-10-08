@@ -1,0 +1,13 @@
+.footer__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: var(--var-body-button-text);
+  text-decoration: none;
+  transition: 1s all;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}

@@ -1,0 +1,16 @@
+.portfolio__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  transition: 1s all;
+  color: var(--var-body-lt);
+}
+
+.portfolio__link:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

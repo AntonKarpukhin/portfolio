@@ -1,8 +1,8 @@
-.page {
+.name__change-theme {
+  display: block;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  margin: 0 auto;
+  margin-bottom: 40px;
   transition: 1s all;
-  background-color: var(--var-body-bg);
 }

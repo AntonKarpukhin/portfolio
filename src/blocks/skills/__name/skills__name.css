@@ -1,0 +1,10 @@
+.skills__name {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--var-body-lt);
+}

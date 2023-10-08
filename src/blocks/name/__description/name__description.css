@@ -1,0 +1,27 @@
+.name__description {
+  margin: 0;
+  padding: 0;
+  width: 184px;
+  height: 44px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--var-body-lt);
+  transition: 1s all;
+  grid-area: description;
+  text-align: center;
+}
+
+/*@media screen and (max-width: 720px) {*/
+/*  .name__description {*/
+/*    font-size: 14px;*/
+/*  }*/
+/*}*/
+
+@media screen and (max-width: 620px) {
+  .name__description {
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: left;
+  }
+}

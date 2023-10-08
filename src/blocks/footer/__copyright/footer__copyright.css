@@ -1,0 +1,10 @@
+.footer__copyright {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  color: var(--var-body-lt);
+  transition: 1s all;
+  margin-top: 150px;
+  right: 20px;
+  bottom: 20px;
+}

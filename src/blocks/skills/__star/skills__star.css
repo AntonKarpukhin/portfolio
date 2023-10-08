@@ -1,0 +1,6 @@
+.skills__star {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--var-body-lt);
+}

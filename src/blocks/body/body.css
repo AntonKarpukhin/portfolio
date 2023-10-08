@@ -1,0 +1,34 @@
+:root {
+  --var-body-bg: rgba(255, 255, 255, 1);
+  --var-body-bg-light: rgba(246, 246, 246, 1);
+  --var-body-lt: rgba(0, 0, 0, 1);
+  --var-body-line: rgba(0, 0, 0, 1);
+  --var-body-button: rgba(0, 0, 0, 1);
+  --var-body-button-text: rgba(255, 255, 255, 1);
+}
+
+[dark] {
+  --var-body-bg: rgba(0, 0, 0, 1);
+  --var-body-bg-light: rgba(20, 20, 20, 1);
+  --var-body-lt: rgba(255, 255, 255, 1);
+  --var-body-line: rgba(255, 255, 255, 1);
+  --var-body-button: rgba(255, 255, 255, 1);
+  --var-body-button-text: rgba(0, 0, 0, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Gilroy", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fade{animation-name: fade;animation-duration: 2s;}
+@keyframes fade{from{opacity: 0.7;}to{opacity: 1;}}

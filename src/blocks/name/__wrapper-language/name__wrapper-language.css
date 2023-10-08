@@ -1,0 +1,9 @@
+.name__wrapper-language {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transform: rotate(-90deg);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

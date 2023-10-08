@@ -1,0 +1,4 @@
+.portfolio__button_type_back {
+  grid-area: back;
+  justify-self: right;
+}

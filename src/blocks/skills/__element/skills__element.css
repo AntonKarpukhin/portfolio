@@ -1,0 +1,7 @@
+.skills__element {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+  background-color: var(--var-body-bg-light);
+}

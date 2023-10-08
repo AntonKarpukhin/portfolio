@@ -1,0 +1,9 @@
+.name__line {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  width: 3px;
+  background-color: var(--var-body-line);
+  transition: 1s all;
+}

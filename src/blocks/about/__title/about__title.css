@@ -1,0 +1,16 @@
+.about__title {
+  margin: 0;
+  padding: 0;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  transition: 1s all;
+  color: var(--var-body-lt);
+}
+
+@media screen and (max-width: 550px) {
+  .about__title {
+    font-size: 28px;
+  }
+}

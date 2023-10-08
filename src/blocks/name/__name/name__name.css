@@ -1,0 +1,18 @@
+.name__name {
+  margin: 0;
+  padding: 0;
+  width: 123px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--var-body-lt);
+  transition: 1s all;
+  text-align: left;
+  grid-area: name;
+}
+
+@media screen and (max-width: 900px) {
+  .name__name {
+    font-size: 35px;
+  }
+}

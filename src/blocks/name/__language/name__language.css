@@ -1,0 +1,16 @@
+.name__language {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  color: var(--var-body-lt);
+  transition: 1s all;
+  background-color: var(--var-body-bg);
+}
+
+.name__language:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

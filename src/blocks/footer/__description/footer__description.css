@@ -1,0 +1,19 @@
+.footer__description {
+  margin: 0;
+  padding: 0;
+  width: 275px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--var-body-lt);
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  transition: 1s all;
+}
+
+@media screen and (max-width: 550px) {
+  .footer__description {
+    width: 200px;
+  }
+}
