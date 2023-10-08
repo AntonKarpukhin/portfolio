@@ -71,29 +71,29 @@ window.addEventListener('DOMContentLoaded', function() {
     wrapperOld.querySelector('.portfolio__img_type_old')
       .addEventListener('touchstart', (evt) => {
         oldSlider.handleTouchStart(evt);
-      })
+      });
     wrapperOld.querySelector('.portfolio__img_type_old')
       .addEventListener('touchmove', (evt) => {
         oldSlider.handleTouchMove(evt);
-      })
+      });
     wrapperOld.querySelector('.portfolio__img_type_old')
       .addEventListener('touchend', () => {
         oldSlider.handleTouchEnd();
-      })
+      });
 
 
     wrapperNew.querySelector('.portfolio__img_type_new')
       .addEventListener('touchstart', (evt) => {
         newSlider.handleTouchStart(evt);
-      })
+      });
     wrapperNew.querySelector('.portfolio__img_type_new')
       .addEventListener('touchmove', (evt) => {
         newSlider.handleTouchMove(evt);
-      })
+      });
     wrapperNew.querySelector('.portfolio__img_type_new')
       .addEventListener('touchend', () => {
         newSlider.handleTouchEnd();
-      })
+      });
 
   } catch ( err ) {
     throw new Error(err)
