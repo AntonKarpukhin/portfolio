@@ -1,6 +1,6 @@
 import '../pages/index.css';
 import 'material-icons/iconfont/material-icons.css';
-import { addDarkClassHtml, checkingTheme } from "../components/dark-theme";
+import { addDarkClassHtml, checkingTheme, setDarkTheme } from "../components/dark-theme";
 import { addEngRUHtml, checkingLanguage } from "../components/change-language";
 import { skills, sliderNew, sliderOld } from "../components/constants";
 import { renderSkills } from "../components/skill";
@@ -9,7 +9,6 @@ import { NewSlider, OldSlider, Slider } from "../components/slider";
 window.addEventListener('DOMContentLoaded', function() {
 
   try {
-
     //Смена темы
     const buttonTheme = document.querySelector('.name__change-theme');
     buttonTheme.addEventListener('click', checkingTheme);
